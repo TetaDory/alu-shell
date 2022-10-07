@@ -1,0 +1,5 @@
+#!/usr/bin/env bash 
+#bash file to display the content of the current dir 
+for file in *;do
+    echo "$file" | cut -d '-' -f 2;
+done  
